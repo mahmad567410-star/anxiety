@@ -6,9 +6,9 @@ SceneSetup.act1();
 
 (...300)
 
-n: AND THIS IS THE HUMAN'S ANXIETY
+n: ور یہ انسان کی اینگزائٹی ہے۔
 
-n: _YOU_ ARE THE ANXIETY
+n: آپ_ وہ اینگزائٹی ہو۔_
 
 {{if window.localStorage.continueChapter=="replay"}}
 (#act1_replay)
@@ -24,17 +24,17 @@ n: _YOU_ ARE THE ANXIETY
 
 `hong({mouth:"0_neutral", eyes:"0_neutral"})`
 
-h: Oh hey! We're back here again?
+h: ارے واہ! ہم پھر سے یہاں آ گئے؟
 
 `hong({eyes:"0_neutral"})`
 
-n: YOUR JOB IS TO PROTECT YOUR HUMAN FROM *DANGER*
+n: آپ کا کام اپنے انسان کو *خطروں* سے بچانا ہے
 
 `bb({eyes:"look", mouth:"small_lock"})`
 
-n: IN FACT, REPLAYING THIS GAME IS PUTTING THEM IN *DANGER* RIGHT NOW
+n:  !سچ تو یہ ہے کہ اس گیم کو دوبارہ کھیلنے سے وہ اس وقت اپنے آپ کو *خطرے* میں ڈال رہے ہیں
 
-n: QUICK, WARN THEM!
+n: !جلدی ، انہیں خبردار کرو
 
 ```
 sfx("squeak");
@@ -42,13 +42,13 @@ bb({body:"squeeze_talk"});
 hong({body:"0_squeeze"});
 ```
 
-b: Human! Listen, we're in danger! The player...
+b: ...انسان! سنو، ہم خطرے میں ہیں! کھیلنے والا
 
-[...is gonna torture us again!](#act1_replay_torture)
+[ہمیں پھر سے نقسان دے گا!](#act1_replay_torture)
 
-[...won't find an alternate ending!](#act1_replay_alternate)
+[کوئی الگ ایندینگ نہیں ڈھونڈ پائے گا!](#act1_replay_alternate)
 
-[...will get ludonarrative dissonance!](#act1_replay_dissonance)
+[کھیل اور کہانی میں الجھ کر رہ جائے گا!](#act1_replay_dissonance)
 
 # act1_replay_torture
 
