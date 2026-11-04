@@ -1076,3 +1076,19 @@ CORNER TEXT
 	display: none;
 }
 
+#game_words, .corner-text, #about_words, #paused {
+    direction: rtl;
+    text-align: right;
+}
+
+/* Fix link and social media alignments from flipping backward */
+.corner-text a, #about_words a {
+    display: inline-block;
+    direction: ltr;
+}
+
+#share {
+    direction: ltr !important;
+    text-align: right;
+}
+
